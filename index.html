@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Stop Game</title>
+
+    <link rel="stylesheet" href="quick.css">
+</head>
+
+<body>
+    
+
+    <div class="center_box ">
+
+        <p>QUIC STOP</p>
+
+        <p id="number">00</p>
+        <input type="input" maxlength="4" placeholder="Add number 0 to 1000" id="user_number" />
+        <br><h2 id="result">RESULT</h2><br>
+
+<div style="width: 400px; text-align: center;">
+    <button onclick="start()" id="Button"> Start </button>
+    <button onclick="stop()"> Stop </button>
+</div>
+   
+        <br>
+        <div class="rules">
+
+            <ol>
+                <li>You have to click before 1000</li>
+                <li>If number matches you win othre wise you loss.</li>
+            </ol>
+        </div>
+
+        <br><br>
+        <button type="reset" > NEW GAME</button>
+    </div>
+
+
+
+
+
+    <script src="quick.js"></script>
+</body>
+
+</html>

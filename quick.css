@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0px; */
+    padding: 0px;
+}
+
+body {
+
+    height: 100vh;
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+    background-image: url(https://i2-prod.mirror.co.uk/incoming/article7142806.ece/ALTERNATES/s1200/lottery.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    background-color: rgba(212, 205, 205, 0.8);
+    border: 2px solid gray;
+    border-radius: 20px;
+    /* color:  white; */
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    text-decoration: underline;
+}
+
+.center_box {
+    background-color: rgba(212, 205, 205, 0.8);
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 600px;
+    min-height: 380px;
+    margin: 0 auto;
+    padding: 100px 10px 100px 10px;
+    border: 2px double gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* box-sizing: border-box; */
+  
+
+}
+#user_number{
+    height: 30px;
+    border-radius: 20px;
+    width: 45%;
+    padding: 5px;
+   font-size: 18px;
+   text-align: center;
+}
+
+button {
+    background-color: rgba(212, 205, 205, 0.8);
+    border-radius: 20px;
+    width: 45%;
+    padding: 5px 30px 5px 30px;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.rules{
+    text-align: left;
+    /* color:rgb(51, 12, 226); */
+}
+
+@media only screen and (max-width: 350px) {
+    body {
+        margin: 0px auto;
+        width: 300px;
+        height: 790px;
+    background-image: url();
+    background-repeat: repeat-y;
+    background-size: contain; 
+    /* border: 2px solid rgb(190, 22, 22); */
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+        /* background-color: rgb(3, 23, 23); */
+    }
+
+    .center_box {
+        /* margin-top: 700px; */
+        background-color: rgba(212, 205, 205, 0.8);
+        border: 2px solid gray;
+        border-radius: 20px;
+        width: 320px;
+        height: 600px;
+        /* margin: 100px auto; */
+    }
+    #user_number{
+       margin: 0px auto;
+        width: 230px;}
+
+        p{
+            width: 280px;}
+
+        button {
+            /* height: 200px; */
+            width: 280px;
+            padding-top: 5px ;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+}
