@@ -6,8 +6,8 @@
 
 body {
 
-    height: 100vh;
-    border: 2px solid black;
+    height: 97vh;
+    /* border: 2px solid black; */
     /* box-sizing: border-box; */
     background-image: url(https://i2-prod.mirror.co.uk/incoming/article7142806.ece/ALTERNATES/s1200/lottery.jpg);
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@ p{
     text-align: center;
     font-size: 30px;
     letter-spacing: 5px;
-    background-color: rgba(212, 205, 205, 0.8);
+    background-color: rgba(241, 233, 233, 0.944);
     border: 2px solid gray;
     border-radius: 20px;
     /* color:  white; */
@@ -32,11 +32,11 @@ p{
 }
 
 .center_box {
-    background-color: rgba(212, 205, 205, 0.8);
-    border: 2px solid gray;
+    background-color: rgba(212, 205, 205, 0.5);
+    /* border: 2px solid gray; */
     border-radius: 20px;
     width: 600px;
-    min-height: 380px;
+    height: 100vh;
     margin: 0 auto;
     padding: 100px 10px 100px 10px;
     border: 2px double gray;
@@ -44,10 +44,6 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
-    /* box-sizing: border-box; */
-  
-
 }
 #user_number{
     height: 30px;
@@ -59,7 +55,7 @@ p{
 }
 
 button {
-    background-color: rgba(212, 205, 205, 0.8);
+    background-color: rgba(241, 233, 233, 0.944);
     border-radius: 20px;
     width: 45%;
     padding: 5px 30px 5px 30px;
